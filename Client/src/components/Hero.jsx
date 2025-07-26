@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import { assets, cityList } from '../assets/assets'
 
 
 const Hero = () => {
     const [pickupLocation, setPickupLocation] = useState('')
+
     return (
         <div className='h-screen flex flex-col items-center justify-center gap-14 bg-light text-center'>
             {/* <div className='min-h-screen flex flex-col items-center justify-start gap-14 bg-light text-center py-8 px-4'> */}

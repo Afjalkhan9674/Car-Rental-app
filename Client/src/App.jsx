@@ -16,6 +16,7 @@ import Login from './components/Login'
 const App = () => {
   const [showLogin,setShowLogin] =useState(false)
   const isOwnerPath = useLocation().pathname.startsWith('/owner')
+
   return (
     <>
     {showLogin && <Login setShowLogin={setShowLogin}/>}
